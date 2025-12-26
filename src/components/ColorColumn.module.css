@@ -1,0 +1,48 @@
+.color {
+  grid-row: 1 / 6; 
+}
+
+.hex {
+  grid-row: 6 / -1; 
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: #D5D4D8;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1em;
+  height: 1.5em;
+}
+
+.icon {
+  font-size: 16px;
+}
+
+.copy {
+  position: absolute;
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+
+.check {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.copy.hide {
+  opacity: 0;
+  transition: none;
+}
+.check.show {
+  opacity: 1;
+  transition: none;
+}

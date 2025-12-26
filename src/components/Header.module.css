@@ -1,0 +1,45 @@
+header {
+  background-color: #1f2937;
+  padding: 1em 3em;
+  color: #D5D4D8;
+}
+
+form {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.colorPickerHide {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.colorBox {
+  width: 2.5rem;
+  height: 2rem;
+  border: 2px solid #D5D4D8;
+  cursor: pointer;
+  margin-left: -1em;
+}
+
+select {
+  width: 50%;
+  height: 2rem;
+  background-color: #1f293a;
+  padding: 0.5em;
+}
+
+.button {
+  font-size: 0.75rem;
+  height: 2rem;
+  background-color: #3d4b60;
+  border-radius: 4px;
+  padding: 0.5em;
+  white-space: nowrap;
+}
+
+.missingInput {
+  border: 2px solid red;
+}
