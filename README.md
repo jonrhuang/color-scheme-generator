@@ -59,3 +59,24 @@ From the project root, run
 ## Running Development Server
 From the project root, run
 `npm run dev`
+
+## User Guide
+### 1. Select Seed Color
+Click on the color box and select desired seed color.
+
+![A screenshot of the color input box highlighted](https://github.com/jonrhuang/color-scheme-generator/blob/main/public/color_select.png)
+
+### 2. Select Scheme
+Choose scheme from drop down selection
+
+![A screenshot of the scheme drop down options](https://github.com/jonrhuang/color-scheme-generator/blob/main/public/get_scheme_button_select.png)
+
+### 3. Get scheme
+Click "Get color scheme"
+
+![A screenshot of the get color scheme button highlighted](https://github.com/jonrhuang/color-scheme-generator/blob/main/public/scheme_select.png)
+
+### 4. Copy Hex values
+Option to copy the hex values to clipboard
+
+![A screenshot of copy button for each color's hex value highlighted](https://github.com/jonrhuang/color-scheme-generator/blob/main/public/copy_select.png)
